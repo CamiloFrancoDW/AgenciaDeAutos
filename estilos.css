@@ -1,0 +1,346 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1400px;
+    width: 100%;
+}
+
+.rectangle {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .Logo {
+    margin: 1%;
+    width: 38px;
+    height: 40px;
+    object-fit: contain;
+    display: flex;
+    float: left;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: left;
+  }
+
+  li.fichas:first-child{
+      margin-left: 10%;
+  }
+
+  li.fichas{
+      margin-top: 8%;
+      margin-bottom: 8%;
+      width: 152px;
+  }
+  a {
+      text-decoration: none;
+  }
+
+  li.fichas a:hover:not(.active) {
+        color: #eb0a1e;
+        border-bottom: 4px solid #eb0a1e;
+
+  }
+
+  .Ficha-de-modelo {
+    width: 121px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+    margin-left: 5%;
+  }
+
+  
+  .Men {
+    width: 41px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+    display: flex;
+    float: right;
+    margin-right: 2%;
+  }
+
+  .Gray {
+    width: 25px;
+    height: 18px;
+    object-fit: contain;
+    margin-right: 2%;
+  }
+
+  div.menu {
+      margin-top: 2%;
+      overflow: hidden;
+      /* display: flex;
+      float: right; */
+  }
+
+  div.menu img.Gray {
+
+      display: flex;
+      float: right;
+  }
+
+/* Style The Dropdown Button */
+.dropbtn {
+    margin-right: 2%;
+    /* background-color: #4CAF50; */
+    color: white;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    float: right;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .Descubr-todos-los-m {
+    width: 712px;
+    height: 57px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: -1px;
+    color: #373737;
+    margin-top: 85px;
+    margin-left: 150px;
+    margin-bottom: 10%;
+
+  }
+
+
+
+  /* Modelos de autos */
+
+  .sectionModels{
+      margin: 0 8%;
+      overflow: hidden;
+      
+  
+    }
+  
+  
+
+  div.divMod {
+    width: 268px;
+    overflow: hidden;
+    margin-bottom: 8%;
+    height: 300px;  
+  }
+
+  .container{
+      display: flex;
+      float: left;
+  }
+
+  .container {
+    display: flex;
+    float: left;
+        
+}
+
+.section-4 {
+  width: 62px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #eb0a1e;
+  border-bottom: 4px solid #eb0a1e;
+  padding-bottom: 18%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+div h4.modelo {
+    width: 262px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: -0.65px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 2%;
+  }
+
+  .subtitulo {
+    width: 268px;
+    height: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    text-align: center;
+    color: #191919;
+    margin-bottom: 2%;
+  }
+
+  .etios {
+    width: 268px;
+    height: 132px;
+    object-fit: contain;
+  }
+
+  div.divMod:hover > a.verModelo {
+    background: black;
+    width: 200px;
+    height: 54px;
+    object-fit: contain;
+    
+    
+    padding: 5% 10%;
+    border-radius: 20px;
+    margin-bottom: 2%!important;
+    
+  }
+
+  div.divMod:hover > h4.modelo {
+    width: 269px;
+    height: 30px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: -0.65px;
+    text-align: center;
+    color: #eb0a1e;
+  }
+
+
+  .SW4 {
+    width: 187px;
+    height: 96px;
+    object-fit: contain;
+    margin-left: 12%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+  }
+
+  a.verModelo {
+      margin: 0 25%;
+    background-color: #ffffff;
+    width: 152px;
+    height: 54px;
+    /* object-fit: contain; */
+  
+  }
+   a.verModelo {
+      text-decoration: none;
+      width: 152px;
+      height: 34px;
+      font-family: ToyotaType;
+      font-size: 13px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.77;
+      letter-spacing: 0.07px;
+      text-align: center;
+      color: #ffffff;
+  }
+
+
+/* //Ordenar */
+
+
+
+.Ordenar-por {
+  width: 90px;
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: #373737;
+}
+
+  .item { width: 25%; }
+  .item.w2 { width: 50%; }
+
+
+  footer{
+    display: block;
+    background-color: #000000;
+    width: 1440px;
+    height: 50px;
+  }
